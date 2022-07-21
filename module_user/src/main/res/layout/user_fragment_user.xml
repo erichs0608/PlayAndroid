@@ -48,7 +48,7 @@
                 android:maxLines="1"
                 android:paddingStart="@dimen/dp_4"
                 android:paddingEnd="@dimen/dp_20"
-                android:text="@{TextUtils.isEmpty(userData.publicName)?`未登录`:userData.publicName}"
+                android:text="@{TextUtils.isEmpty(userData.publicName)? @string/user_not_login :userData.publicName}"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="@+id/iv_avatar"
                 app:layout_constraintEnd_toStartOf="@+id/user_lottieanimationview"

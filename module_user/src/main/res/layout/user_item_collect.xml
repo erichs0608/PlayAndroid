@@ -38,7 +38,7 @@
             <TextView
                     android:id="@+id/tv_author"
                     android:layout_width="0dp"
-                    android:text="@{TextUtils.isEmpty(data.author)?`匿名`:data.author}"
+                    android:text="@{TextUtils.isEmpty(data.author)? @string/user_anonymous :data.author}"
                     app:layout_constraintHorizontal_weight="1"
                     android:layout_height="wrap_content"
                     app:layout_constraintStart_toStartOf="@id/tv_title"

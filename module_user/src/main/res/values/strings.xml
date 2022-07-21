@@ -1,3 +1,9 @@
 <resources>
     <string name="user_app_name">Module_user</string>
+    <string name="user_score">积分: %s</string>
+    <string name="user_rank">排名: %s</string>
+    <string name="user_not_login">未登录</string>
+    <string name="user_today">今天</string>
+    <string name="user_score_plus"> 积分+</string>
+    <string name="user_anonymous">匿名</string>
 </resources>
